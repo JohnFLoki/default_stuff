@@ -1,5 +1,5 @@
 alias ports='netstat -lpnuta'
-alias usage='df -h'
+alias usage='df -Th'
 alias ls='ls -alF'
 alias size='du -h --max-depth=1'
 alias tasks='ps aux'
