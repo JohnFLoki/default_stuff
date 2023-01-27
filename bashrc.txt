@@ -8,4 +8,11 @@ alias back='cd $OLDPWD'
 alias temp='vcgencmd measure_temp'
 alias prune='docker system prune -a --volumes'
 
+alias docyaml='nano docker-compose.yml'
+alias docup='docker-compose up -d'
+alias docdown='docker-compose down'
+alias docstop='docker-compose stop'
+alias docrestart='docker-compose restart'
+alias docupdate='docker-compose stop && docker-compose pull && docker-compose up -d'
+
 set enable-bracketed-paste on
